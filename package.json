@@ -1,0 +1,44 @@
+{
+  "name": "generator-gulp-angular-sub",
+  "version": "0.0.1",
+  "description": "gulp-angular subgenerator",
+  "homepage": "/",
+  "author": {
+    "name": "elouazzany",
+    "email": "a.elouazzany@gmail.com",
+    "url": "https://github.com/elouazzany"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators\\index.js",
+  "keywords": [
+    "yeoman-generator",
+    "gulp-angular",
+    "glup",
+    "angular"
+  ],
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "lodash": "^3.10.1",
+    "path": "^0.12.7",
+    "yeoman-generator": "^0.21.1",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "yeoman-assert": "^2.0.0",
+    "gulp": "^3.6.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0"
+  },
+  "repository": "elouazzany/generator-gulp-angular-sub",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT"
+}
