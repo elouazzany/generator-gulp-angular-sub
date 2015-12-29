@@ -18,7 +18,7 @@ npm install -g generator-gulp-angular-sub
     ```bash
     cd myProject
     ```
-3. Run subTasck
+3. Run subTask
     - Run `yo gulp-angular-sub:view` for creation a view 
     - Run `yo gulp-angular-sub:component` for creation a component
 
