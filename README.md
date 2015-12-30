@@ -38,6 +38,14 @@ run `yo gulp-angular-sub:view` and provide requested informations.
     - `src/app/component/myComponent/myComponent.directive.js`
     - `src/app/component/myComponent/myComponent.directive.spec.js`  
     - `src/app/component/myComponent/myComponent.html`
+
+## Supported technologies
+
+* *Router*:  `UI Router`
+* *CSS pre-processor*: `none`
+* *JS preprocessor*: `none`
+* *HTML preprocessor*: `none`
+
 ## License
 
 MIT © [elouazzany](https://github.com/elouazzany)
