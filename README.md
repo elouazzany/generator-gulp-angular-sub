@@ -2,7 +2,8 @@
 > gulp-angular subgenerator
 
 ### Why should i use it?
-For now, the great [gulp-angular](https://github.com/Swiip/generator-gulp-angular) (which follow [Best Practice Recommendations for Angular App Structure](https://docs.google.com/document/d/1XXMvReO8-Awi1EZXAXS4PzDzdNvV6pGcuaF4Q9821Es/pub)  provided by angularJS team ) generator does not support sub tasks. So i decided to build a this subgenerator that creates those tasks.
+For now, the great [gulp-angular](https://github.com/Swiip/generator-gulp-angular) (which follow [Best Practice Recommendations for Angular App Structure](https://docs.google.com/document/d/1XXMvReO8-Awi1EZXAXS4PzDzdNvV6pGcuaF4Q9821Es/pub)  provided by angularJS team ) generator does not support sub tasks. So i decided to build this subgenerator that creates those tasks.
+
  
 ## Installation
 
