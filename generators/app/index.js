@@ -65,6 +65,7 @@ module.exports = yeoman.generators.Base.extend({
     var viewFolder = ("app/" + this.props.viewPath + '/' + this.props.viewName + '/').replace(/\/+/g,'/');
     var viewUrl = ('/' + this.props.viewUrl ).replace(/\/+/g,'/').replace(/\/$/g,'');
     var controllerAs = this.props.viewName;
+    var controllerName = _.capitalize(this.props.viewName + 'Controller');
     var data = {
         appName: this.appName,
         controlerName: _.capitalize(this.props.viewName + 'Controller'),
@@ -92,7 +93,7 @@ module.exports = yeoman.generators.Base.extend({
         '  .state(\'' + stateName + '\', {',
         '    url: \'' + viewUrl + '\',',
         '    templateUrl: \'' + viewFolder + nameSpace  + '.html\',',
-        '    controller: \'' + viewFolder + nameSpace + '.controller.js\',',
+        '    controller: \'' + controllerName + '\',',
         '    controllerAs: \'' + controllerAs + '\'',
         '  })'
       ]

@@ -70,7 +70,7 @@ module.exports = yeoman.generators.Base.extend({
         appName: this.appName,
         controlerName: _.capitalize(this.props.viewName + 'Controller'),
         directiveName : componentName,
-        templateUrl: 'app/components/' + componentName + '.html',
+        templateUrl: 'app/components/' + componentName + '/' + componentName + '.html',
         directiveLink: componentName + 'Link',
         directiveController: componentName + 'Controller',
         serviceName: componentName,
