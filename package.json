@@ -2,7 +2,6 @@
   "name": "generator-gulp-angular-sub",
   "version": "0.0.5",
   "description": "gulp-angular subgenerator",
-  "homepage": "/",
   "author": {
     "name": "elouazzany",
     "email": "a.elouazzany@gmail.com",
